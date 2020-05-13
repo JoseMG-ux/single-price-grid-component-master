@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+header h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+header h2 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+header p {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  line-height: 30px;
+}
+header {
+  padding: 50px;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #fff;
+  max-width: 700px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.conteiner {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 280px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  text-align: left;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.box {
+  width: 350px;
+  padding: 30px;
+  color: white;
+  background-color: rgb(42, 178, 175);
+}
+.box-left {
+  background-color: rgb(74, 190, 189);
+  line-height: 25px;
+  font-weight: 400;
+}
+
+p.number {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.box p {
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 20px;
+}
+
+p.number span {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-left: 20px;
+}
+
+button {
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  width: 250px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.19), 0 10px 10px rgba(0, 0, 0, 0.02);
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+  main {
+    overflow: auto;
+  }
+  .box {
+    width: 450px;
+  }
+}
